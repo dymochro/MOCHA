@@ -1,10 +1,10 @@
 # MOCHA
-python script to analyze half-frap experiments of cellular structures suspected of LLPS, using the MOCHA-FRAP workflow.
+Python script to analyze half-FRAP experiments of cellular structures suspected to be formed by LLPS, using the MOCHA-FRAP workflow.
 
-# Tutorial to perform half-frap experiments:
+# Tutorial to analyze half-FRAP experiments:
 
 ## Introduction
-MOCHA-FRAP is a quantitative half-FRAP approach to assess if molecules in a structure of interest undergo liquid-liquid phase separation (LLPS) driven by multivalent interactions, or if they undergo low-valency interactions with spatially clustered binding sites (ICBS) on an immobile scaffold. In addition, MOCHA-FRAP quantifies the apparent energy barrier at the interface of structures of interest. This tutorial is intended to give a compact overview of the individual steps of the workflow. **A google colab and a jupyter notebook is available in this repository** for the user-friendly analysis of MOCHA-FRAP experiments.
+MOCHA-FRAP is a quantitative half-FRAP approach to assess if molecules in a structure of interest undergo liquid-liquid phase separation (LLPS) driven by multivalent interactions, or if they undergo low-valency interactions with spatially clustered binding sites (ICBS) on an immobile scaffold. MOCHA-FRAP distinguishes both models by quantifying the apparent energy barrier at the interface of the structure of interest. This tutorial is intended to give a compact overview of the individual steps of the workflow. **A google colab and a jupyter notebook is available in this repository** for the user-friendly analysis of MOCHA-FRAP experiments.
 
 **1. Sample considerations**
 MOCHA-FRAP can be used to study both in vitro systems and living cells. In the latter case, the protein of interest has to be fused to a fluorescent protein. If the fusion protein is overexpressed, it should be beard in mind that LLPS is a concentration-dependent process that can be triggered by excessive overexpression, which should therefore be avoided. For in vitro systems, ideally only a small fraction of proteins is labeled to reduce potential artifacts induced by the dye. Furthermore, the buffer conditions and the protein concentration should be optimized to mimic those inside the cell. The glass surface on which the sample is placed should be passivated before the experiment to mitigate potential artifacts caused by interactions of the studied molecules with the glass surface.
